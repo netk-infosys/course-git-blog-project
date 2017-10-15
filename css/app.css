@@ -26,6 +26,8 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    margin-top: 100px;
 }
 
 h2,
@@ -54,12 +56,11 @@ p {
     margin-bottom: 2rem;
     min-height: 25vh;
 }
-
 h1 {
     letter-spacing: 8px;
     position: relative;
     text-transform: uppercase;
-    text-shadow: 0 0 1px white;
+    text-shadow: 0 0 3px white;
 }
 
 h1::after {
@@ -121,7 +122,9 @@ aside {
     display: inline-block;
     margin-right: 0.75em;
 }
-
+.aside_pdtop {
+  height: 60px;
+}
 
 /*** Footer Styling ***/
 footer {
